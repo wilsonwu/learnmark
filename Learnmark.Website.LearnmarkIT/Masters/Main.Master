@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Learnmark.Website.LearnmarkIT.Masters.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/Includes/InnerStyle.css" rel="stylesheet" type="text/css" />
+    <link href="/Includes/Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <!--header start -->
+    <div id="headerMain">
+        <div id="header">
+            <a href="http://it.learnmark.com">
+                <img src="/images/logo.gif" alt="Learnmark" width="236" height="105" border="0" class="logo" /></a>
+            <ul class="nav">
+                <asp:ContentPlaceHolder ID="nav" runat="server">
+                </asp:ContentPlaceHolder>
+            </ul>
+            <div id="headersearch">
+            <input type="text" name="serch" class="txtBox" value="Enter Search Items" />
+            <input type="submit" name="go" class="go" value="Go" />
+            <label>
+                <a href="#">Advance Search</a></label>
+            </div>
+            <ul class="sub">
+                <asp:ContentPlaceHolder ID="snav" runat="server">
+                </asp:ContentPlaceHolder>
+            </ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <br class="spacer" />
+        </div>
+    </div>
+    <!--header end -->
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+    <!--footer start -->
+    <div id="footerMain">
+        <div id="footer">
+            <ul class="botNav">
+                <li><a href="http://corp.learnmark.com" class="one" target="_blank">关于零码</a>|</li>
+                <li><a href="http://corp.learnmark.com" target="_blank">About Learnmark</a>|</li>
+                <li><a href="/AboutUs/AboutUs.aspx">零码科技简介</a>|</li>
+                <li><a href="#">工作机会</a>|</li>
+                <li><a href="#">网站地图</a>|</li>
+                <li><a href="/AboutUs/Contact.aspx">联系我们</a></li>
+            </ul>
+            <p class="copyright">
+                Copyright &copy; Learnmark 2008 - 2010. All Rights Reserved. 零码公司 版权所有</p>
+            <p class="design">
+                <a href="http://www.miibeian.gov.cn/" target="_blank" class="link">蜀ICP备08100832号</a></p>
+            &nbsp;</div>
+    </div>
+    <!--footer end -->
+    </form>
+</body>
+</html>

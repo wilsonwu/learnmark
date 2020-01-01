@@ -1,0 +1,23 @@
+﻿@import url('Default.css');
+@import url('ListPage.css');
+@import url('SubPage.css');
+@import url('Master.css');
+
+body
+{
+    background-color:#DBDBDB; 
+    margin:0 auto;
+}
+
+a
+{
+    text-decoration:none;
+}
+a:hover
+{
+    text-decoration:none;
+}
+img
+{
+    border-style:none;
+}

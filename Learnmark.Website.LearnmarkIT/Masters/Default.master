@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Masters/Main.Master" AutoEventWireup="true"
+    CodeBehind="Default.master.cs" Inherits="Learnmark.Website.LearnmarkIT.Masters.Default" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="nav" ContentPlaceHolderID="nav" runat="server">
+    <li><a href="/Default.aspx" class="hover">首页</a></li>
+    <li><a href="/AboutUs/AboutUs.aspx">关于我们</a></li>
+    <li><a href="/Solutions/ITServices.aspx">解决方案</a></li>
+    <li><a href="/Clients/Clients.aspx">客户案例</a></li>
+    <li class="noMargin"><a href="/AboutUs/Contact.aspx">联系我们</a></li>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="snav" runat="server">
+    <li class="noImg"><a href="#" class="first">全国统一咨询热线：400-6966-004</a></li>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h2>
+        为什么选择<span>零码科技</span>?</h2>
+    <p>
+        零码科技拥有先进的质量管理和运营体系，保证了产品服务的质量和效率。公司建立了完善的员工培训及发展体系、质量监控体系、IT支持体系，支持整个经营运作以及产品和备件的运营。</p>
+    <a href="/AboutUs/AboutUs.aspx" class="more">more</a>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

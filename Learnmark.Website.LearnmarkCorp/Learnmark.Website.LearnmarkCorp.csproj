@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1487494B-EB67-4FCB-B4FC-9ACA56E17416}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Learnmark.Website.LearnmarkCorp</RootNamespace>
+    <AssemblyName>Learnmark.Website.LearnmarkCorp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\zzDefault.aspx" />
+    <Content Include="Admin\FramePage\managerbody.aspx" />
+    <Content Include="Admin\FramePage\top.aspx" />
+    <Content Include="Admin\Images\add.gif" />
+    <Content Include="Admin\Images\addmenu.gif" />
+    <Content Include="Admin\Images\addremoveprograms.gif" />
+    <Content Include="Admin\Images\agree.gif" />
+    <Content Include="Admin\Images\ajax_loading.gif" />
+    <Content Include="Admin\Images\arrow_black.gif" />
+    <Content Include="Admin\Images\arrow_undo.gif" />
+    <Content Include="Admin\Images\asc.gif" />
+    <Content Include="Admin\Images\ascx.gif" />
+    <Content Include="Admin\Images\aspx.gif" />
+    <Content Include="Admin\Images\back.gif" />
+    <Content Include="Admin\Images\bg.gif" />
+    <Content Include="Admin\Images\bottom.gif" />
+    <Content Include="Admin\Images\break.gif" />
+    <Content Include="Admin\Images\btn_calendar.gif" />
+    <Content Include="Admin\Images\busy.gif" />
+    <Content Include="Admin\Images\button.gif" />
+    <Content Include="Admin\Images\buttonbg.gif" />
+    <Content Include="Admin\Images\buttonbg.jpg" />
+    <Content Include="Admin\Images\cache_reset.gif" />
+    <Content Include="Admin\Images\cache_resetall.gif" />
+    <Content Include="Admin\Images\calendar.gif" />
+    <Content Include="Admin\Images\cal_nextMonth.gif" />
+    <Content Include="Admin\Images\cal_prevMonth.gif" />
+    <Content Include="Admin\Images\cancel.gif" />
+    <Content Include="Admin\Images\checkver.gif" />
+    <Content Include="Admin\Images\close.gif" />
+    <Content Include="Admin\Images\col.gif" />
+    <Content Include="Admin\Images\collapse.gif" />
+    <Content Include="Admin\Images\colorpicker.gif" />
+    <Content Include="Admin\Images\commandbg.gif" />
+    <Content Include="Admin\Images\commandbg2.gif" />
+    <Content Include="Admin\Images\commandbg3.gif" />
+    <Content Include="Admin\Images\commandbg4.gif" />
+    <Content Include="Admin\Images\config.gif" />
+    <Content Include="Admin\Images\cs.gif" />
+    <Content Include="Admin\Images\css.gif" />
+    <Content Include="Admin\Images\del.gif" />
+    <Content Include="Admin\Images\deleted.gif" />
+    <Content Include="Admin\Images\desc.gif" />
+    <Content Include="Admin\Images\disagree.gif" />
+    <Content Include="Admin\Images\dot.gif" />
+    <Content Include="Admin\Images\downarrow.gif" />
+    <Content Include="Admin\Images\dropdown.gif" />
+    <Content Include="Admin\Images\droptop.gif" />
+    <Content Include="Admin\Images\dropup.gif" />
+    <Content Include="Admin\Images\editfile.gif" />
+    <Content Include="Admin\Images\email.gif" />
+    <Content Include="Admin\Images\existmenu.gif" />
+    <Content Include="Admin\Images\exp.gif" />
+    <Content Include="Admin\Images\expand.gif" />
+    <Content Include="Admin\Images\eye.gif" />
+    <Content Include="Admin\Images\fairy.png" />
+    <Content Include="Admin\Images\false.gif" />
+    <Content Include="Admin\Images\favorite.gif" />
+    <Content Include="Admin\Images\flower.jpg" />
+    <Content Include="Admin\Images\folder.gif" />
+    <Content Include="Admin\Images\folders.gif" />
+    <Content Include="Admin\Images\folder_open.gif" />
+    <Content Include="Admin\Images\fullmenu.gif" />
+    <Content Include="Admin\Images\grid_headerBg.gif" />
+    <Content Include="Admin\Images\group_asc.gif" />
+    <Content Include="Admin\Images\group_desc.gif" />
+    <Content Include="Admin\Images\header.gif" />
+    <Content Include="Admin\Images\header1stCell_bg.gif" />
+    <Content Include="Admin\Images\header_activeBg.gif" />
+    <Content Include="Admin\Images\header_bg.gif" />
+    <Content Include="Admin\Images\header_hoverBg.gif" />
+    <Content Include="Admin\Images\header_rowBg.gif" />
+    <Content Include="Admin\Images\help.jpg" />
+    <Content Include="Admin\Images\hint.gif" />
+    <Content Include="Admin\Images\hover_tab_bg.gif" />
+    <Content Include="Admin\Images\hover_tab_left_icon.gif" />
+    <Content Include="Admin\Images\hover_tab_right_icon.gif" />
+    <Content Include="Admin\Images\htm.gif" />
+    <Content Include="Admin\Images\icons\false.jpg" />
+    <Content Include="Admin\Images\icons\icon1.jpg" />
+    <Content Include="Admin\Images\icons\icon10.jpg" />
+    <Content Include="Admin\Images\icons\icon11.jpg" />
+    <Content Include="Admin\Images\icons\icon12.jpg" />
+    <Content Include="Admin\Images\icons\icon13.jpg" />
+    <Content Include="Admin\Images\icons\icon14.jpg" />
+    <Content Include="Admin\Images\icons\icon15.jpg" />
+    <Content Include="Admin\Images\icons\icon16.jpg" />
+    <Content Include="Admin\Images\icons\icon17.jpg" />
+    <Content Include="Admin\Images\icons\icon18.jpg" />
+    <Content Include="Admin\Images\icons\icon19.jpg" />
+    <Content Include="Admin\Images\icons\icon2.jpg" />
+    <Content Include="Admin\Images\icons\icon20.jpg" />
+    <Content Include="Admin\Images\icons\icon21.jpg" />
+    <Content Include="Admin\Images\icons\icon22.jpg" />
+    <Content Include="Admin\Images\icons\icon23.jpg" />
+    <Content Include="Admin\Images\icons\icon24.jpg" />
+    <Content Include="Admin\Images\icons\icon25.jpg" />
+    <Content Include="Admin\Images\icons\icon26.jpg" />
+    <Content Include="Admin\Images\icons\icon27.jpg" />
+    <Content Include="Admin\Images\icons\icon28.jpg" />
+    <Content Include="Admin\Images\icons\icon29.jpg" />
+    <Content Include="Admin\Images\icons\icon3.jpg" />
+    <Content Include="Admin\Images\icons\icon30.jpg" />
+    <Content Include="Admin\Images\icons\icon31.jpg" />
+    <Content Include="Admin\Images\icons\icon32.jpg" />
+    <Content Include="Admin\Images\icons\icon33.jpg" />
+    <Content Include="Admin\Images\icons\icon34.jpg" />
+    <Content Include="Admin\Images\icons\icon35.jpg" />
+    <Content Include="Admin\Images\icons\icon36.jpg" />
+    <Content Include="Admin\Images\icons\icon37.jpg" />
+    <Content Include="Admin\Images\icons\icon38.jpg" />
+    <Content Include="Admin\Images\icons\icon39.jpg" />
+    <Content Include="Admin\Images\icons\icon4.jpg" />
+    <Content Include="Admin\Images\icons\icon40.jpg" />
+    <Content Include="Admin\Images\icons\icon41.jpg" />
+    <Content Include="Admin\Images\icons\icon42.jpg" />
+    <Content Include="Admin\Images\icons\icon43.jpg" />
+    <Content Include="Admin\Images\icons\icon44.jpg" />
+    <Content Include="Admin\Images\icons\icon45.jpg" />
+    <Content Include="Admin\Images\icons\icon46.jpg" />
+    <Content Include="Admin\Images\icons\icon47.jpg" />
+    <Content Include="Admin\Images\icons\icon48.jpg" />
+    <Content Include="Admin\Images\icons\icon49.jpg" />
+    <Content Include="Admin\Images\icons\icon5.jpg" />
+    <Content Include="Admin\Images\icons\icon50.jpg" />
+    <Content Include="Admin\Images\icons\icon51.jpg" />
+    <Content Include="Admin\Images\icons\icon52.jpg" />
+    <Content Include="Admin\Images\icons\icon53.jpg" />
+    <Content Include="Admin\Images\icons\icon54.jpg" />
+    <Content Include="Admin\Images\icons\icon55.jpg" />
+    <Content Include="Admin\Images\icons\icon56.jpg" />
+    <Content Include="Admin\Images\icons\icon57.jpg" />
+    <Content Include="Admin\Images\icons\icon58.jpg" />
+    <Content Include="Admin\Images\icons\icon59.jpg" />
+    <Content Include="Admin\Images\icons\icon6.jpg" />
+    <Content Include="Admin\Images\icons\icon60.jpg" />
+    <Content Include="Admin\Images\icons\icon7.jpg" />
+    <Content Include="Admin\Images\icons\icon8.jpg" />
+    <Content Include="Admin\Images\icons\icon9.jpg" />
+    <Content Include="Admin\Images\icons\legendimg.jpg" />
+    <Content Include="Admin\Images\icons\true.jpg" />
+    <Content Include="Admin\Images\invalidation.gif" />
+    <Content Include="Admin\Images\jiao.gif" />
+    <Content Include="Admin\Images\js.gif" />
+    <Content Include="Admin\Images\key.gif" />
+    <Content Include="Admin\Images\kj.gif" />
+    <Content Include="Admin\Images\leftbg.jpg" />
+    <Content Include="Admin\Images\legendimg.jpg" />
+    <Content Include="Admin\Images\lines\dash.gif" />
+    <Content Include="Admin\Images\lines\dashminus.gif" />
+    <Content Include="Admin\Images\lines\dashplus.gif" />
+    <Content Include="Admin\Images\lines\i.gif" />
+    <Content Include="Admin\Images\lines\l.gif" />
+    <Content Include="Admin\Images\lines\lminus.gif" />
+    <Content Include="Admin\Images\lines\lplus.gif" />
+    <Content Include="Admin\Images\lines\minus.gif" />
+    <Content Include="Admin\Images\lines\noexpand.gif" />
+    <Content Include="Admin\Images\lines\plus.gif" />
+    <Content Include="Admin\Images\lines\r.gif" />
+    <Content Include="Admin\Images\lines\rminus.gif" />
+    <Content Include="Admin\Images\lines\rplus.gif" />
+    <Content Include="Admin\Images\lines\t.gif" />
+    <Content Include="Admin\Images\lines\tminus.gif" />
+    <Content Include="Admin\Images\lines\tplus.gif" />
+    <Content Include="Admin\Images\login-bottom.gif" />
+    <Content Include="Admin\Images\login-center.gif" />
+    <Content Include="Admin\Images\login-top.gif" />
+    <Content Include="Admin\Images\login.png" />
+    <Content Include="Admin\Images\mail.gif" />
+    <Content Include="Admin\Images\Menudown.gif" />
+    <Content Include="Admin\Images\Menuon.gif" />
+    <Content Include="Admin\Images\Menutab.jpg" />
+    <Content Include="Admin\Images\move.gif" />
+    <Content Include="Admin\Images\mydocs.gif" />
+    <Content Include="Admin\Images\mydocuments.gif" />
+    <Content Include="Admin\Images\navigation.gif" />
+    <Content Include="Admin\Images\nav\add.gif" />
+    <Content Include="Admin\Images\nav\add2.gif" />
+    <Content Include="Admin\Images\nav\advanced.gif" />
+    <Content Include="Admin\Images\nav\back.gif" />
+    <Content Include="Admin\Images\nav\combination.gif" />
+    <Content Include="Admin\Images\nav\common.gif" />
+    <Content Include="Admin\Images\nav\edit.gif" />
+    <Content Include="Admin\Images\nav\edit2.gif" />
+    <Content Include="Admin\Images\nav\email.gif" />
+    <Content Include="Admin\Images\nav\exit.gif" />
+    <Content Include="Admin\Images\nav\groupadd.gif" />
+    <Content Include="Admin\Images\nav\groupadd2.gif" />
+    <Content Include="Admin\Images\nav\groupadd3.gif" />
+    <Content Include="Admin\Images\nav\groupedit.gif" />
+    <Content Include="Admin\Images\nav\guide.gif" />
+    <Content Include="Admin\Images\nav\home.gif" />
+    <Content Include="Admin\Images\nav\log.gif" />
+    <Content Include="Admin\Images\nav\move.gif" />
+    <Content Include="Admin\Images\nav\sendemail.gif" />
+    <Content Include="Admin\Images\nav\sendpm.gif" />
+    <Content Include="Admin\Images\nav\shortcut.gif" />
+    <Content Include="Admin\Images\nav\sysinfo.gif" />
+    <Content Include="Admin\Images\nav\templates.gif" />
+    <Content Include="Admin\Images\nav\useradd.gif" />
+    <Content Include="Admin\Images\nav\useredit.gif" />
+    <Content Include="Admin\Images\next.gif" />
+    <Content Include="Admin\Images\nodelete.gif" />
+    <Content Include="Admin\Images\off.gif" />
+    <Content Include="Admin\Images\OK.gif" />
+    <Content Include="Admin\Images\prev.gif" />
+    <Content Include="Admin\Images\priority_high.gif" />
+    <Content Include="Admin\Images\priority_low.gif" />
+    <Content Include="Admin\Images\reorder.gif" />
+    <Content Include="Admin\Images\scroller\bottom.gif" />
+    <Content Include="Admin\Images\scroller\down.gif" />
+    <Content Include="Admin\Images\scroller\down_disabled.gif" />
+    <Content Include="Admin\Images\scroller\scroller_bg.gif" />
+    <Content Include="Admin\Images\scroller\scroll_gripBg.gif" />
+    <Content Include="Admin\Images\scroller\top.gif" />
+    <Content Include="Admin\Images\scroller\up.gif" />
+    <Content Include="Admin\Images\scroller\up_disabled.gif" />
+    <Content Include="Admin\Images\search.gif" />
+    <Content Include="Admin\Images\searchbutton.jpg" />
+    <Content Include="Admin\Images\selected_tab_bg.gif" />
+    <Content Include="Admin\Images\selected_tab_left_icon.gif" />
+    <Content Include="Admin\Images\selected_tab_right_icon.gif" />
+    <Content Include="Admin\Images\selector.gif" />
+    <Content Include="Admin\Images\selectTab_hover.gif" />
+    <Content Include="Admin\Images\selectTab_hover2.gif" />
+    <Content Include="Admin\Images\sentItems.gif" />
+    <Content Include="Admin\Images\serchbutton.gif" />
+    <Content Include="Admin\Images\serchbutton2.gif" />
+    <Content Include="Admin\Images\shareddocuments.gif" />
+    <Content Include="Admin\Images\sortBlank.gif" />
+    <Content Include="Admin\Images\spacer.gif" />
+    <Content Include="Admin\Images\spinner.gif" />
+    <Content Include="Admin\Images\splitter_horBg.gif" />
+    <Content Include="Admin\Images\splitter_horCol.gif" />
+    <Content Include="Admin\Images\splitter_horColHover.gif" />
+    <Content Include="Admin\Images\splitter_horExp.gif" />
+    <Content Include="Admin\Images\splitter_horExpHover.gif" />
+    <Content Include="Admin\Images\splitter_verBg.gif" />
+    <Content Include="Admin\Images\splitter_verCol.gif" />
+    <Content Include="Admin\Images\splitter_verColHover.gif" />
+    <Content Include="Admin\Images\splitter_verExp.gif" />
+    <Content Include="Admin\Images\splitter_verExpHover.gif" />
+    <Content Include="Admin\Images\star.gif" />
+    <Content Include="Admin\Images\state1.gif" />
+    <Content Include="Admin\Images\state2.gif" />
+    <Content Include="Admin\Images\state3.gif" />
+    <Content Include="Admin\Images\submenubg.jpg" />
+    <Content Include="Admin\Images\submenubg2.jpg" />
+    <Content Include="Admin\Images\submenubg3.jpg" />
+    <Content Include="Admin\Images\submenubg4.jpg" />
+    <Content Include="Admin\Images\submenubg5.jpg" />
+    <Content Include="Admin\Images\submenubg6.jpg" />
+    <Content Include="Admin\Images\submenubg7.jpg" />
+    <Content Include="Admin\Images\submit.gif" />
+    <Content Include="Admin\Images\tab.active.gif" />
+    <Content Include="Admin\Images\tab0leftbg.gif" />
+    <Content Include="Admin\Images\tab1leftbg.gif" />
+    <Content Include="Admin\Images\tab2leftbg.gif" />
+    <Content Include="Admin\Images\tab3leftbg.gif" />
+    <Content Include="Admin\Images\tab4leftbg.gif" />
+    <Content Include="Admin\Images\tab5leftbg.gif" />
+    <Content Include="Admin\Images\tab6leftbg.gif" />
+    <Content Include="Admin\Images\Tabbg.gif" />
+    <Content Include="Admin\Images\tableftbg.gif" />
+    <Content Include="Admin\Images\tab_bg.gif" />
+    <Content Include="Admin\Images\tab_left_icon.gif" />
+    <Content Include="Admin\Images\tab_right_icon.gif" />
+    <Content Include="Admin\Images\topbar.jpg" />
+    <Content Include="Admin\Images\topbarbg.gif" />
+    <Content Include="Admin\Images\topictype.gif" />
+    <Content Include="Admin\Images\topItem_col.gif" />
+    <Content Include="Admin\Images\topItem_exp.gif" />
+    <Content Include="Admin\Images\top_level_bg.gif" />
+    <Content Include="Admin\Images\top_level_ico1.gif" />
+    <Content Include="Admin\Images\top_level_ico2.gif" />
+    <Content Include="Admin\Images\true.gif" />
+    <Content Include="Admin\Images\uparrow.gif" />
+    <Content Include="Admin\Images\update.gif" />
+    <Content Include="Admin\Images\uploadfile.gif" />
+    <Content Include="Admin\Images\usergroup.gif" />
+    <Content Include="Admin\Images\vb.gif" />
+    <Content Include="Admin\Images\warning.gif" />
+    <Content Include="Admin\Images\xml.gif" />
+    <Content Include="Admin\Images\xpbuttonbg_l.gif" />
+    <Content Include="Admin\Images\xpbuttonbg_r.gif" />
+    <Content Include="Admin\Images\zip.gif" />
+    <Content Include="Admin\Images\zoomin.gif" />
+    <Content Include="Admin\Images\zoomout.gif" />
+    <Content Include="Admin\JS\ajaxhelper.js" />
+    <Content Include="Admin\JS\calendar.js" />
+    <Content Include="Admin\JS\colorpicker.js" />
+    <Content Include="Admin\JS\common.js" />
+    <Content Include="Admin\JS\divcover.js" />
+    <Content Include="Admin\JS\draglist.js" />
+    <Content Include="Admin\JS\modalpopup.js" />
+    <Content Include="Admin\JS\navbar.js" />
+    <Content Include="Admin\JS\tabstrip.js" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="Admin\Styles\calendar.css" />
+    <Content Include="Admin\Styles\colorpicker.css" />
+    <Content Include="Admin\Styles\datagrid.css" />
+    <Content Include="Admin\Styles\default.css" />
+    <Content Include="Admin\Styles\dntmanager.css" />
+    <Content Include="Admin\Styles\draglist.css" />
+    <Content Include="Admin\Styles\editor.css" />
+    <Content Include="Admin\Styles\modelpopup.css" />
+    <Content Include="Admin\Styles\nav.css" />
+    <Content Include="Admin\Styles\tab.css" />
+    <Content Include="Admin\XML\backup\navmenu.js" />
+    <Content Include="Admin\XML\navmenu.js" />
+    <Content Include="App_Data\Data.mdb" />
+    <Content Include="Components\Default\Left_NewsList.ascx" />
+    <Content Include="Components\Function\PressReleases_NewsList.ascx" />
+    <Content Include="Images\ad1.jpg" />
+    <Content Include="Images\ad2.jpg" />
+    <Content Include="Includes\Admin.css" />
+    <Content Include="zz1.aspx" />
+    <Content Include="AboutUs\AboutLearnmark.aspx" />
+    <Content Include="AboutUs\ContactUs.aspx" />
+    <Content Include="AboutUs\ManagementTeam.aspx" />
+    <Content Include="AboutUs\PressReleases.aspx" />
+    <Content Include="AboutUs\RoadMap.aspx" />
+    <Content Include="Business\Education.aspx" />
+    <Content Include="Business\ITService.aspx" />
+    <Content Include="Business\Learnmark.aspx" />
+    <Content Include="Business\Talent.aspx" />
+    <Content Include="Cooperation\Partner.aspx" />
+    <Content Include="Culture\Culture.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Images\1_c.gif" />
+    <Content Include="Images\1_g.gif" />
+    <Content Include="Images\2_c.gif" />
+    <Content Include="Images\2_g.gif" />
+    <Content Include="Images\3_c.gif" />
+    <Content Include="Images\3_g.gif" />
+    <Content Include="Images\4_c.gif" />
+    <Content Include="Images\4_g.gif" />
+    <Content Include="Images\ad1.gif" />
+    <Content Include="Images\FriendshipLink\AMD.jpg" />
+    <Content Include="Images\FriendshipLink\Blog.jpg" />
+    <Content Include="Images\FriendshipLink\CA.jpg" />
+    <Content Include="Images\FriendshipLink\Digital.jpg" />
+    <Content Include="Images\FriendshipLink\Friendly Link.jpg" />
+    <Content Include="Images\FriendshipLink\HP.jpg" />
+    <Content Include="Images\FriendshipLink\IBM.jpg" />
+    <Content Include="Images\FriendshipLink\KingDee.jpg" />
+    <Content Include="Images\FriendshipLink\LearnMark.jpg" />
+    <Content Include="Images\FriendshipLink\Lenovo.jpg" />
+    <Content Include="Images\FriendshipLink\Microsoft.jpg" />
+    <Content Include="Images\FriendshipLink\NeUsoft.jpg" />
+    <Content Include="Images\FriendshipLink\NewEgg.jpg" />
+    <Content Include="Images\FriendshipLink\Oracle.jpg" />
+    <Content Include="Images\FriendshipLink\Sap.jpg" />
+    <Content Include="Images\FriendshipLink\Sony.jpg" />
+    <Content Include="Images\FriendshipLink\SSW.jpg" />
+    <Content Include="Images\FriendshipLink\SyMbio.jpg" />
+    <Content Include="Images\FriendshipLink\tfsp.jpg" />
+    <Content Include="Images\FriendshipLink\UFIDA.jpg" />
+    <Content Include="Images\slide_trigger.gif" />
+    <Content Include="Images\slide_trigger_c.gif" />
+    <Content Include="Information\Communication.aspx" />
+    <Content Include="Information\CopyRight.aspx" />
+    <Content Include="Information\Job.aspx" />
+    <Content Include="Information\SiteMap.aspx" />
+    <Content Include="zsListPage.aspx" />
+    <Content Include="Scripts\IESupport.js" />
+    <Content Include="Scripts\tbra.js" />
+    <Content Include="Scripts\yui-base.js" />
+    <Content Include="zsSubPage.aspx" />
+    <Content Include="zzDefault.aspx" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\ad-temp.gif" />
+    <Content Include="Images\hd_bg.gif" />
+    <Content Include="Images\left_bigdot.gif" />
+    <Content Include="Images\left_fd_btn.gif" />
+    <Content Include="Images\left_fd_inner.gif" />
+    <Content Include="Images\left_fd_mid.gif" />
+    <Content Include="Images\left_fd_top.gif" />
+    <Content Include="Images\left_more.gif" />
+    <Content Include="Images\left_to_g.gif" />
+    <Content Include="Images\left_to_r.gif" />
+    <Content Include="Images\left_underline.gif" />
+    <Content Include="Images\right_lbar.gif" />
+    <Content Include="Images\right_line.gif" />
+    <Content Include="Images\right_rbar.gif" />
+    <Content Include="Images\sub\sub_left_bg.gif" />
+    <Content Include="Images\sub\sub_left_drop.gif" />
+    <Content Include="Images\sub\sub_left_top.gif" />
+    <Content Include="Images\sub\sub_right_dot.gif" />
+    <Content Include="Images\sub\sub_right_inner.gif" />
+    <Content Include="Images\sub\sub_right_top_bg_l.gif" />
+    <Content Include="Images\sub\sub_right_top_bg_m.gif" />
+    <Content Include="Images\sub\sub_right_top_bg_r.gif" />
+    <Content Include="Images\sub\sub_right_top_bg_s.gif" />
+    <Content Include="Images\top_logo.gif" />
+    <Content Include="Images\top_more.gif" />
+    <Content Include="Images\top_more_h.gif" />
+    <Content Include="Includes\Default.css" />
+    <Content Include="Includes\ListPage.css" />
+    <Content Include="Includes\Main.css" />
+    <Content Include="Includes\Master.css" />
+    <Content Include="Includes\SubPage.css" />
+    <Content Include="zzListPage.aspx" />
+    <Content Include="Scripts\jquery-1.3.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.3.2.js" />
+    <Content Include="Scripts\jquery-1.3.2.min.js" />
+    <Content Include="zzSubPage.aspx" />
+    <Content Include="zztest.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Default\Left_NewsList.ascx.cs">
+      <DependentUpon>Left_NewsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Components\Default\Left_NewsList.ascx.designer.cs">
+      <DependentUpon>Left_NewsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Function\PressReleases_NewsList.ascx.cs">
+      <DependentUpon>PressReleases_NewsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Components\Function\PressReleases_NewsList.ascx.designer.cs">
+      <DependentUpon>PressReleases_NewsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\AdminPage.master.cs">
+      <DependentUpon>AdminPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\AdminPage.master.designer.cs">
+      <DependentUpon>AdminPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="zz1.aspx.cs">
+      <DependentUpon>zz1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zz1.aspx.designer.cs">
+      <DependentUpon>zz1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\AboutLearnmark.aspx.cs">
+      <DependentUpon>AboutLearnmark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\AboutLearnmark.aspx.designer.cs">
+      <DependentUpon>AboutLearnmark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\ManagementTeam.aspx.cs">
+      <DependentUpon>ManagementTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\ManagementTeam.aspx.designer.cs">
+      <DependentUpon>ManagementTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\PressReleases.aspx.cs">
+      <DependentUpon>PressReleases.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\PressReleases.aspx.designer.cs">
+      <DependentUpon>PressReleases.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs\RoadMap.aspx.cs">
+      <DependentUpon>RoadMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs\RoadMap.aspx.designer.cs">
+      <DependentUpon>RoadMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business\Education.aspx.designer.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Business\ITService.aspx.cs">
+      <DependentUpon>ITService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business\ITService.aspx.designer.cs">
+      <DependentUpon>ITService.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Learnmark.aspx.cs">
+      <DependentUpon>Learnmark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business\Learnmark.aspx.designer.cs">
+      <DependentUpon>Learnmark.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Talent.aspx.cs">
+      <DependentUpon>Talent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Business\Talent.aspx.designer.cs">
+      <DependentUpon>Talent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cooperation\Partner.aspx.cs">
+      <DependentUpon>Partner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cooperation\Partner.aspx.designer.cs">
+      <DependentUpon>Partner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Culture\Culture.aspx.cs">
+      <DependentUpon>Culture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Culture\Culture.aspx.designer.cs">
+      <DependentUpon>Culture.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information\Communication.aspx.cs">
+      <DependentUpon>Communication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information\Communication.aspx.designer.cs">
+      <DependentUpon>Communication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information\CopyRight.aspx.cs">
+      <DependentUpon>CopyRight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information\CopyRight.aspx.designer.cs">
+      <DependentUpon>CopyRight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information\Job.aspx.cs">
+      <DependentUpon>Job.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information\Job.aspx.designer.cs">
+      <DependentUpon>Job.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Information\SiteMap.aspx.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Information\SiteMap.aspx.designer.cs">
+      <DependentUpon>SiteMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zsListPage.aspx.cs">
+      <DependentUpon>zsListPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zsListPage.aspx.designer.cs">
+      <DependentUpon>zsListPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zsSubPage.aspx.cs">
+      <DependentUpon>zsSubPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zsSubPage.aspx.designer.cs">
+      <DependentUpon>zsSubPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zzDefault.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>zzDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zzDefault.aspx.designer.cs">
+      <DependentUpon>zzDefault.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zzListPage.aspx.cs">
+      <DependentUpon>zzListPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zzListPage.aspx.designer.cs">
+      <DependentUpon>zzListPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Default.master.cs">
+      <DependentUpon>Default.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Default.master.designer.cs">
+      <DependentUpon>Default.master</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\ListPage.master.cs">
+      <DependentUpon>ListPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\ListPage.master.designer.cs">
+      <DependentUpon>ListPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\SubPage.master.cs">
+      <DependentUpon>SubPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\SubPage.master.designer.cs">
+      <DependentUpon>SubPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="zzSubPage.aspx.cs">
+      <DependentUpon>zzSubPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zzSubPage.aspx.designer.cs">
+      <DependentUpon>zzSubPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="zztest.aspx.cs">
+      <DependentUpon>zztest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="zztest.aspx.designer.cs">
+      <DependentUpon>zztest.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\Images\_notes\" />
+    <Folder Include="Admin\News\" />
+    <Folder Include="Admin\XML\精简菜单\" />
+    <Folder Include="Components\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\Default.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\SubPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\ListPage.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\XML\backup\navmenu.config" />
+    <Content Include="Admin\XML\navmenu.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Learnmark.Website.Common\Learnmark.Website.Common.csproj">
+      <Project>{6B88BC33-4A4B-41B0-81A6-97BF1B6D1D2B}</Project>
+      <Name>Learnmark.Website.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Masters\AdminPage.master" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12060</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

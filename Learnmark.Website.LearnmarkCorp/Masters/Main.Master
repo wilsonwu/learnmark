@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Learnmark.Website.LearnmarkCorp.Masters.Main" %>
+
+<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Learnmark 零码</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <link href="../Includes/Main.css" rel="stylesheet" type="text/css" />    
+    <!--[if lte IE 6]>
+    <script type="text/javascript" language="Javascript" src="../Scripts/IESupport.js"></script>
+    <![endif]-->
+    <script src="../Scripts/yui-base.js" language="javascript"></script>
+    <script src="../Scripts/tbra.js" language="javascript"></script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-5672680-3");
+            pageTracker._trackPageview();
+        } catch (err) { }</script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="continer">
+            <div style="float:left; background-image:url('../Images/hd_bg.gif'); height:74px;">
+                <div style="float:left; width:358px; height:74px;">
+                    <img src="../Images/top_logo.gif" alt="Alternate Text" style="margin-top:24px; margin-bottom:24px; margin-left:20px; height:26px;" />
+                </div>
+                <div style="float:left; width:642px; height:74px;">
+                    <div style="color:#9E9D9D; font-size:12px; line-height:22px; margin:27px 0px 26px 364px; width:270px; height:21px; ">
+                        <div style="float:left; width: 108px;">
+                        <span>简体中文｜English</span>
+                        </div>
+                        <div class="moresite" style=" z-index:1; float:left; width:140px; background-position:right; background-repeat:no-repeat; padding-left:18px;">
+                            访问零码相关站点
+                            <div>
+                            <ul style="line-height:30px; padding:0; color:#f4f0f0;margin-left:20px; font-weight:bold; margin-top:0px;">
+                                <li><a href="http://www.learnmark.com" style="color:White;">零码软件</a></li>
+                                <li style="color:#efd20b"><a href="" style="color:White;">零码教育</a></li>
+                                <li><a href="" style="color:White;">IT讲师网</a></li>
+                                <li><a href="" style="color:White;">零星小语</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            </asp:ContentPlaceHolder>
+            <div class="foot">
+                <div style="color:White; text-align:center;height:78px; font-size:12px; vertical-align:middle; line-height:24px; padding-top:4px;">
+                <a href="/Information/CopyRight.aspx">法律声明</a>　　<a href="/Information/Job.aspx">加入零码</a>　　<a href="/Information/Communication.aspx">合作洽谈</a>　　<a href="/Information/SiteMap.aspx">网站地图</a><br />
+                Copyright &copy; Learnmark 2008 - 2010. All Rights Reserved. 零码公司 版权所有<br />
+                <a href="http://www.miibeian.gov.cn/" target="_blank">蜀ICP备08100832号</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

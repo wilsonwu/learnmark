@@ -1,0 +1,43 @@
+﻿.Login_Main
+{
+    margin: 20px 50px 20px 50px;
+    float: left;
+    width: 700;
+}
+
+.Login_HeadText
+{
+    float: left;
+    width: 700px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Login_All
+{
+    float: left;
+}
+
+.Login_Login
+{
+    float: left;
+    padding-left: 40px;
+    padding-top: 5px;
+    width:160px;
+}
+
+.Login_RightImg
+{
+    float: right;
+    padding-right: 30px;
+}
+
+.Login_Btn
+{
+    float:left; padding-top:6px; padding-left:10px; width:130px;
+}
+
+.Login_FPWD
+{
+    float: left; width: 340px; padding-left: 40px; padding-top: 10px;
+}

@@ -1,0 +1,30 @@
+﻿.leftnav ul li a
+{
+    color: #8a8989;
+    text-decoration: none;
+}
+.leftnav ul li a:hover
+{
+    color: black;
+}
+.leftnav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 214px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #8a8989;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.topnav a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.topnav a:hover
+{
+    color: #FFFFFF;
+}

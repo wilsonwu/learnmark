@@ -1,0 +1,126 @@
+﻿.info
+{
+    position: relative;
+    color: #7E7E7E;
+}
+.info:hover, .infoh
+{
+    position: relative;
+    color: Red;
+}
+.info div
+{
+    display: none;
+}
+.info:hover div, .infoh div
+{
+    display: block;
+    width: 107px; /*height: 119px;*/
+    background: #000000;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+    border: 1px solid #000000;
+    left: 174px;
+    top: -1px;
+    position: absolute;
+    z-index: 999;
+}
+
+.info div a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info div a:hover
+{
+    color: Orange;
+}
+
+.img_1
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.img_1:hover, .img1h
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+
+.img_2
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.img_2:hover, .img2h
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+
+.img_3
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.img_3:hover, .img3h
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+
+.img_4
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+
+.img_4:hover, .img4h
+{
+    width: 197px;
+    height: 144px;
+    float: left;
+    margin-left: 2px;
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=0);
+}
+
+/*1*/
+.topmenu div
+{
+    display:none;
+}
+
+.topmenu:hover
+{
+     background-image:url('/Images/nav_mon.gif'); 
+     background-position:bottom left; 
+     background-repeat:no-repeat; 
+     color:White;
+}
+.topmenu:hover div
+{
+    display:block;
+}
